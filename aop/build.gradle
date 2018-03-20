@@ -1,0 +1,13 @@
+group 'com.calabash'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'war'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+//http://www.importnew.com/15420.html参考文章
