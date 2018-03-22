@@ -10,6 +10,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="aop_main" />
+    <orderEntry type="library" name="Gradle: asm:asm:2.2.3" level="project" />
+    <orderEntry type="library" name="Gradle: cglib:cglib-nodep:3.2.6" level="project" />
+    <orderEntry type="library" name="Gradle: javassist:javassist:3.12.1.GA" level="project" />
     <orderEntry type="library" name="Gradle: junit:junit:4.11" level="project" />
     <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>

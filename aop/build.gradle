@@ -1,6 +1,8 @@
 group 'com.calabash'
 version '1.0-SNAPSHOT'
-
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
 apply plugin: 'war'
 
 repositories {
@@ -9,5 +11,11 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile group: 'asm', name: 'asm', version: '2.2.3'
+    compile group: 'cglib', name: 'cglib-nodep', version: '3.2.6'
+    compile group: 'javassist', name: 'javassist', version: '3.12.1.GA'
+
+
 }
+
 //http://www.importnew.com/15420.html参考文章

@@ -16,6 +16,11 @@
           <element id="module-output" name="aop_main" />
           <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: asm:asm:2.2.3" />
+          <element id="library" level="project" name="Gradle: cglib:cglib-nodep:3.2.6" />
+          <element id="file-copy" path="F:/gradleRepo/caches/modules-2/files-2.1/javassist/javassist/3.12.1.GA/526633327faa61aee448a519e8a4d53ec3057885/javassist-3.12.1.GA.jar" />
+        </element>
       </element>
     </root>
   </artifact>
